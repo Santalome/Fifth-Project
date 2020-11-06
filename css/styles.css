@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.all-content{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-row-gap: 20px;
+    grid-auto-flow: row;
+}
+
+img{
+    min-width: 80%;
+    min-height: 80%;
+}
